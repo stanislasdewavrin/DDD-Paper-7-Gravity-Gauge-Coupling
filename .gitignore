@@ -37,3 +37,7 @@ Thumbs.db
 *.swo
 .vscode/
 .idea/
+
+# Work artifacts (peer-review iterations, intermediate builds, scripts)
+feedback_loop/
+reviews/

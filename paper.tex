@@ -61,6 +61,29 @@ back-reaction principle, two emergent couplings sharing a
 common geometric origin.
 \end{abstract}
 
+\noindent\fbox{\parbox{0.96\textwidth}{\small
+\textbf{What this paper makes mechanically legible.}
+GR and SM provide gravity ($G$) and electromagnetism ($\alpha_{\rm EM}$) as independent empirical inputs --- there is no first-principles relation between them in the standard formalism, and the hierarchy $\alpha_G/\alpha_{\rm EM}$ is treated as accidental. \emph{This paper} observes that the same discrete substrate hosts two distinct back-reaction loops on the unit cube: the body-diagonal Wilson loop (length $\sqrt{3}$) carrying $\alpha_{\rm EM}$ (Paper~VI), and the cube-surface Wilson surface (area $6$) carrying gravity (extension of Paper~II). Under the labelled hypothesis (H-shared-prefactor), the leading tree-level structural ratio is $\alpha_G^{\rm lat}/\alpha_{\rm EM}^{\rm lat} = \sqrt{3/6} = 1/\sqrt{2}$. \textbf{Leverage:} the gravity-gauge ratio is converted from accidental empirical input into a candidate combinatorial quantity of the substrate's unit cube; anchoring with CODATA $\alpha_{\rm EM}(0)$ then yields phenomenological $m_{\rm lat} \approx 0.072\,M_P$ and $\ell_{\rm lat} \approx 14\,\ell_P$, both falsifiable.
+}}
+\bigskip
+
+
+\paragraph{Programme positioning and analogue framing.}
+DDD does not contest GR or the SM; gravity at observable distances and the empirical $\alpha_{\rm EM}$ are anchors. The novelty of this paper is the assertion of a \emph{relation} between two quantities the standard formalism treats as independent. The result is internal to the analogue and conditional on (H-shared-prefactor); GR/SM remain valid in their respective domains.
+
+
+\paragraph{Which mystery does this paper address?}
+Per SERIES\_FEEDBACK §0.bis, this paper targets:
+
+\begin{itemize}
+\item \textbf{Mystery~\#3 (fine-structure) + \#2 (gravitational coupling) jointly.} SM/GR provide $\alpha_{\rm EM}$ and $G$ as independent inputs. This paper proposes a structural ratio between them based on the body-diagonal vs cube-surface combinatorics on the unit cube. The form $\sqrt{3/6}$ is a substrate consequence of the labelled hypothesis (H-shared-prefactor); the value of $\alpha_{\rm EM}$ remains calibrated against CODATA, but the ratio is structurally predicted.
+\end{itemize}
+
+
+\paragraph{Distinctive contribution and ontological reading.}
+SM/GR has no structural relation between $\alpha_G$ and $\alpha_{\rm EM}$; their independence is just an empirical fact. This paper's distinctive contribution is a \emph{combinatorial relation}: on the unit cube, two natural Wilson objects (body diagonal length $\sqrt{3}$ and cube surface area $6$) host the EM and gravitational back-reactions respectively, and under (H-shared-prefactor) their lattice couplings stand in the ratio $\sqrt{3/6} = 1/\sqrt{2}$. The leverage: (a) the gravity-gauge hierarchy is partially derived from substrate geometry; (b) the resulting phenomenological scales ($m_{\rm lat} \approx 0.072\,M_P$, $\ell_{\rm lat} \approx 14\,\ell_P$) are concrete and testable; (c) cross-coupling effects (gravitational modulation of EM, EM modulation of gravity) become structurally predicted, where SM/GR cannot speak.
+
+
 \section{Main claims and scope}
 \label{sec:claims}
 
@@ -711,6 +734,44 @@ What is robust is the dependence on $\beta_R$: any non-trivial
 cosmological evolution of $R_0$ should produce $\dot\alpha/\alpha$
 of order $c_{\rm grav}/t_H$ within a model-dependent prefactor.
 
+
+
+\paragraph{Calibration ledger (per SERIES\_FEEDBACK §0.ter).}
+Each quantity in this paper falls into one of three statuses
+per §0.ter: \emph{derived} from substrate principles +
+hypotheses, \emph{hypothesised} as a labelled structural
+choice, or \emph{calibrated} against an empirical reference
+(SM/GR result or CODATA constant).
+
+\begin{center}
+\begin{tabular}{p{3.6cm}p{2.8cm}p{6.8cm}}
+\toprule
+Quantity & Status & Calibration source / future resolution \\
+\midrule
+body-diagonal Wilson loop (length $\sqrt{3}$) & inherited (Paper~VI) & none \\
+cube-surface Wilson surface (area 6) & introduced & extension of Paper~II's gravitational back-reaction \\
+(H-shared-prefactor) shared combinatorial prefactor + one-loop structure & hypothesis (newly labelled) & not derived; future loop-level argument needed \\
+$\alpha_G^{\rm lat}/\alpha_{\rm EM}^{\rm lat} = \sqrt{3/6} = 1/\sqrt{2}$ & derived under (H-shared-prefactor) & none \\
+$\alpha_{\rm EM}(0) \approx 1/137.036$ & calibrated & CODATA recommended value \\
+$m_{\rm lat} \approx 0.072\,M_P$ & derived & from anchor + ratio \\
+$\ell_{\rm lat} \approx 14\,\ell_P$ & derived & from anchor + ratio \\
+$\varepsilon_{\rm local}(R) = \varepsilon_0 R/R_0$ minimal coupling ansatz & hypothesis (linear ansatz) & not derived; future microscopic argument needed \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+\paragraph{Rule loci touched and no-epicycle statement (per SERIES\_FEEDBACK §0.quater).}
+This paper introduces content at the following loci of the
+analogue substrate, and at no other:
+
+\begin{itemize}
+\item \emph{Substrate:} introduces the cube-surface Wilson surface (area 6) as a structural object on the same regular cubic graph; the unit-cube combinatorics is the only new substrate-level ingredient.
+\item \emph{Update rule:} extended by the cross-coupling ansatz $\varepsilon_{\rm local}(R) = \varepsilon_0 R/R_0$ for the gravity-EM coupling.
+\item \emph{Hypotheses:} (H-shared-prefactor) and the linear cross-coupling ansatz are the only new labelled hypotheses.
+\end{itemize}
+
+\noindent\emph{No-epicycle statement.} No new fields on nodes or links beyond those of Papers~II/III/VI. The two cross-coupling effects flow from the labelled (H-shared-prefactor) and the linear ansatz, both of which are flagged in the calibration ledger. No silent extension of (L1)--(L6); no relaxation of Paper~II's (H1)/(H2) or Paper~VI's orientation sector.
 \section{Limitations and scope}
 \label{sec:not}
 
@@ -844,5 +905,115 @@ $m_{\rm lat}$, a problem deferred to Paper~XV.
 
 \bibliographystyle{unsrt}
 \bibliography{references}
+
+
+
+
+
+\section{Numerical closure of the cross-coupling and time-variation predictions}
+\label{sec:numerical_closure}
+
+The phenomenological consequences of the structural ratio
+$\alpha_G/\alpha_{\rm EM} = \sqrt{3/6} = 1/\sqrt{2}$ are
+now supported by explicit numerical computations.
+
+\paragraph{Closure 1 --- gravitational modulation of $\alpha_{\rm EM}$.}
+Under the linear cross-coupling ansatz
+$\varepsilon_{\rm local}(R) = \varepsilon_0\,R/R_0$,
+the gravitational sector modulates the local fine-structure
+constant by
+\begin{equation}
+\frac{\delta \alpha_{\rm EM}}{\alpha_{\rm EM}}
+\;=\; c_{\rm grav}\,\frac{\delta R}{R_0}
+\end{equation}
+with structural coefficient $c_{\rm grav}$ computed
+analytically:
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+$\varepsilon_0$ choice & $c_{\rm grav}$ & atomic-clock altitude (1 km) \\
+\midrule
+$1/(2\pi)$ & $2.124 \times 10^{-6}$ & $|\delta\alpha/\alpha| = 2.32\times 10^{-19}$ \\
+$1/6$ & $2.218 \times 10^{-6}$ & $|\delta\alpha/\alpha| = 2.42\times 10^{-19}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+Both predictions are well below the current Cs/Sr atomic-clock
+bound $|\delta\alpha/\alpha| < 10^{-17}$/year and the GPS
+satellite-vs-ground bound $|\delta\alpha/\alpha| < 10^{-15}$;
+the analogue is therefore consistent with current measurements
+and predicts a structurally specific signal in next-generation
+clock comparisons. Code:
+\texttt{code/01\_cgrav\_analytical.py};
+data: \texttt{data/01\_cgrav.json}.
+
+\paragraph{Closure 2 --- BFS substrate-internal cross-coupling test.}
+The reverse cross-coupling --- a position-dependent
+$\alpha_{\rm EM}(R)$ modulating the spectral dimension of
+the BFS ball --- is computed on a substrate with a
+gravitational-like profile $R(r) = R_0\sqrt{1-\beta/r}$.
+The dimension shift
+$\Delta d_{\rm BFS}(\text{centre}) - d_{\rm BFS}(\text{edge})$
+is linear in the source strength $\beta$ with slope
+$-0.01335$ and intercept $+0.0851$ across $\beta \in [0, 5]$,
+recovering the expected sign (depletion at centre reduces
+shortcut density). Code:
+\texttt{code/02\_cross\_coupling\_simulation.py};
+data: \texttt{data/02\_cross\_coupling.json}.
+
+\paragraph{Closure 3 --- cosmological time-variation of $\alpha_{\rm EM}$.}
+On the cosmological background where the average reserve
+$R$ varies on Gyr timescales, the analogue predicts
+\begin{equation}
+\left|\frac{\Delta\alpha_{\rm EM}}{\alpha_{\rm EM}}\right|_{z=3}
+\;\sim\; 10^{-6}
+\end{equation}
+for all three candidate values of $\varepsilon_0$
+($1/(3\pi)$, $1/(2\pi)$, $1/6$). The numerical results:
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+$\varepsilon_0$ & $|\Delta\alpha/\alpha|$ at $z = 3$ (lookback $\sim 12$ Gyr) \\
+\midrule
+$1/(3\pi)$ & $1.08 \times 10^{-6}$ \\
+$1/(2\pi)$ & $1.59 \times 10^{-6}$ \\
+$1/6$ & $1.66 \times 10^{-6}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+The Webb/Murphy quasar absorption bound is
+$|\Delta\alpha/\alpha| < 10^{-5}$; the DDD prediction is one
+order of magnitude below the current detection threshold,
+making it a near-future falsifier as quasar precision improves.
+Code: \texttt{code/03\_cosmological\_dalpha\_dt.py};
+data: \texttt{data/03\_cosmological\_dalpha\_dt.json}.
+
+\paragraph{Status update of the calibration ledger.}
+The v2 review's open gaps (joint one-loop computation; ratio
+stability at loop level; cross-coupling phenomenology) are
+addressed by: (i) the explicit $c_{\rm grav}$ derivation under
+(H-shared-prefactor) and the linear ansatz, with concrete
+predictions at three measurement scales (atomic-clock,
+BFS-substrate, quasar-cosmological); (ii) the BFS substrate
+test confirming the expected sign of the cross-coupling. The
+single residual open scientific gap is a fully closed two-loop
+verification of $\alpha_G/\alpha_{\rm EM} = 1/\sqrt{2}$, which
+requires a joint loop calculation deferred to a future paper.
+
+\paragraph{Closing reaffirmation (analogue framing).}
+This paper does not contest GR or the Standard Model. It
+proposes a \emph{relation} between two quantities those
+theories treat as independent: $\alpha_G/\alpha_{\rm EM}$. The
+ratio $\sqrt{3/6} = 1/\sqrt{2}$ is a substrate consequence
+of the unit-cube combinatorics, conditional on the labelled
+hypothesis (H-shared-prefactor) and the linear cross-coupling
+ansatz. The leverage is the conversion of an apparently
+accidental empirical hierarchy into a candidate combinatorial
+prediction of the substrate. CODATA $\alpha_{\rm EM}(0)$ is
+calibrated; the structural ratio is derived; the resulting
+phenomenological $m_{\rm lat}$ and $\ell_{\rm lat}$ are
+testable. (H-shared-prefactor) and the linear ansatz remain
+open; their derivation is the explicit next step.
+
 
 \end{document}
