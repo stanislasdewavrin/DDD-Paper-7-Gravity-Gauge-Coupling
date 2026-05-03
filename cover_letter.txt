@@ -1,0 +1,79 @@
+Cover Letter --- submission of:
+"Discrete Drainage Dynamics VII:
+Gravity--Gauge Coupling and the Joint Wilson-Loop
+Back-Reaction"
+
+Stanislas de Wavrin
+Independent researcher
+dewavrin.iphone@gmail.com
+2 May 2026
+
+To the Editor,
+
+I would like to submit the enclosed manuscript for consideration. Below
+I summarise the contribution and why I believe it is timely.
+
+==========================================================================
+SUMMARY
+==========================================================================
+
+I derive the cross-coupling between the gravitational sector (Paper II) and the gauge sector (Paper VI) on the DDD substrate. The result is a small but non-zero drift rate beta_R = R_0_dot / R_0 of the substrate's reference scale, which translates into a slow drift of the fine-structure constant alpha_EM_dot / alpha_EM at the level constrained by atomic-clock experiments. The framework therefore predicts a specific relation between cosmological dark-energy evolution and the laboratory bound on alpha drift.
+
+==========================================================================
+WHY THIS MATTERS
+==========================================================================
+
+Atomic-clock comparisons constrain alpha drift to |alpha_EM_dot / alpha_EM| < 10^-17 / yr. Connecting this bound to cosmological dark-energy evolution is a non-trivial consistency requirement that DDD addresses without new parameters.
+
+==========================================================================
+NOVELTY
+==========================================================================
+
+Joint Wilson-loop back-reaction calculation. Derivation of beta_R from the cross-coupling coefficient. Comparison with current atomic-clock bounds and with the cosmogenetic-cascade dilution rate of Paper VIII.
+
+==========================================================================
+SUBMISSION STRATEGY
+==========================================================================
+
+This manuscript is Paper VII of a planned ten-paper series on
+Discrete Drainage Dynamics (DDD). The series is organised so each
+paper has a clean, falsifiable claim of its own; the present paper
+can be read independently of the others, with explicit cross-
+references to its companions where needed.
+
+I am happy to follow whichever route the editor prefers: standalone
+submission of the present paper, or coordinated submission as part
+of the series.
+
+==========================================================================
+DATA AND CODE
+==========================================================================
+
+All simulation code, data, and analysis scripts accompanying this
+paper are available in the supplementary material and will be
+released on the author's public repository upon acceptance.
+
+==========================================================================
+SUGGESTED REFEREES
+==========================================================================
+
+[To be filled by the author at the time of submission, with
+2--3 referees working in the relevant area.]
+
+==========================================================================
+DECLARATIONS
+==========================================================================
+
+  - The author declares no competing financial interests.
+  - The work has not been previously published, and is not under
+    consideration elsewhere.
+  - All simulations were performed by the author on a personal
+    computer.
+  - The author is an independent researcher with no institutional
+    affiliation.
+
+I look forward to your feedback.
+
+With kind regards,
+
+Stanislas de Wavrin
